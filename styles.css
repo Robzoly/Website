@@ -40,6 +40,7 @@ header{
 .container-hero {
 	background-color: var(--background-color);
 	
+	
 }
 
 .hero {
@@ -470,6 +471,24 @@ header{
 	background-color: var(--dark-color);
 }
 
+.container-img {
+	position: relative;
+}
+
+.container-img img {
+	width: 100%;
+}
+
+.container-img .discount {
+	position: absolute;
+	left: 0;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 2px 1.2rem;
+	border-radius: 1rem;
+	font-size: 1.2rem;
+}
+
 /* ********************************** */
 /*               FOOTER               */
 /* ********************************** */
@@ -558,6 +577,18 @@ header{
 
 .facebook {
 	background-color: #3b5998;
+}
+
+.twitter {
+	background-color: #00acee;
+}
+
+.youtube {
+	background-color: #c4302b;
+}
+
+.pinterest {
+	background-color: #c8232c;
 }
 
 .instagram {
