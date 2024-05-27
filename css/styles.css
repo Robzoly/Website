@@ -456,20 +456,28 @@ header{
 }
 
 .btn-read-more {
-	padding: 1rem 3rem;
-	background-color: var(--primary-color);
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	border-radius: 2rem;
-	margin: 3rem 0 5rem;
-	display: inline-block;
-	cursor: pointer;
+    padding: 1rem 3rem;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    margin: 3rem 0 5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-read-more a {
+    color: #fff; /* Color del texto cambiado a blanco */
 }
 
 .btn-read-more:hover {
-	background-color: var(--dark-color);
+    background-color: var(--dark-color);
 }
+
+.btn-read-more a:hover {
+    color: #fff; /* Asegúrate de que el color siga siendo blanco al pasar el ratón */
+}
+
 
 .container-img {
 	position: relative;
